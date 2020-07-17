@@ -1,0 +1,25 @@
+{
+  "name": "M4U",
+  "version": "1.0",
+  "description": "Build a test extension!",
+  "background": {
+    "scripts": ["background.js"],
+    "persistent": false
+  },
+  "icons": {
+    "16": "images/4u16.png",
+    "32": "images/4u32.png",
+    "128": "images/4u128.png"
+  },
+  "options_page": "options.html",
+  "browser_action": {
+    "default_popup": "popup.html",
+    "default_icon": {
+      "16": "images/4u16.png",
+      "32": "images/4u32.png",
+      "128": "images/4u128.png"
+    },
+    "default_title": "M4U"
+  },
+  "manifest_version": 2
+}
