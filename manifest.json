@@ -2,6 +2,7 @@
   "name": "M4U",
   "version": "1.0",
   "description": "Build a test extension!",
+  "permissions": ["declarativeContent", "storage"],
   "background": {
     "scripts": ["background.js"],
     "persistent": false
